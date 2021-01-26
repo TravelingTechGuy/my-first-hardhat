@@ -1,6 +1,7 @@
+import React, {useEffect, useState} from 'react';
 import getBlockchain from './ethereum.js';
 
-function App() {
+const App = () => {
   const [token, setToken] = useState(undefined);
 
   useEffect(() => {
